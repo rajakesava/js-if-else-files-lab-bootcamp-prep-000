@@ -3,12 +3,14 @@ var height = "74";
 }
 if (index.name === "Joe") {
     console.log("The name is correct");
+    
 } else {
-    console.log("Expected: Susan, Received: "+index.name);
+    console.log("Expected: Susan, Received: " "Susan");
 }
 
 if (index.height === 74) {
-    console.log("The height is correct");
+    console.log (" Expected to be 70");
 } else {
-    console.log("Expected: 70, Received: "+index.height);
+    console.log("Expected: 70, Received: "+ "70");
 }
+
